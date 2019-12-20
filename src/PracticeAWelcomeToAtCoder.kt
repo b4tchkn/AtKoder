@@ -1,10 +1,17 @@
-fun main() {
-    println("> Please input your name.")
-    val a = readLine()?.toInt()
-    val inputBc = readLine()
-    val bc = inputBc!!.split(" ").map(String::toInt)
-    val b = bc[0]
-    val c = bc[1]
-    val s = readLine()
-    print("a = $a, b = $b, c = $c")
+fun main(args: Array<String>) {
+    var a = 0
+    (0..2).forEach {
+        val input = readLine()
+        a += when (it) {
+            0 -> input!!.toInt()
+            1 -> {
+                val values = input!!.split(" ").map(String::toInt)
+                values[0] + values[1]
+            }
+            else -> {
+                println("$a $input")
+                0
+            }
+        }
+    }
 }
