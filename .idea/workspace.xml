@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb595e9-8dc7-4151-993e-ec7b08e6e2ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ABC081APlacingMarbles.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ABC086AProduct.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CheatSheet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ABC081BShiftOnly.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AtKoder/META-INF/AtKoder.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AtKoder/META-INF/AtKoder.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CheatSheet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CheatSheet.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
-  <component name="RunManager" selected="Kotlin.ABC081APlacingMarblesKt">
+  <component name="RunManager" selected="Kotlin.ABC081BShiftOnlyKt">
     <configuration name="ABC081APlacingMarblesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AtKoder" />
       <option name="VM_PARAMETERS" />
@@ -47,6 +46,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="ABC081APlacingMarblesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ABC081BShiftOnlyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AtKoder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ABC081BShiftOnlyKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,19 +90,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeAWelcomeToAtCoderKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="AtKoder" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="PracticeAWelcomeToAtCoderKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SecondKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AtKoder" />
       <option name="VM_PARAMETERS" />
@@ -106,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ABC081BShiftOnlyKt" />
         <item itemvalue="Kotlin.ABC081APlacingMarblesKt" />
         <item itemvalue="Kotlin.ABC086AProductKt" />
         <item itemvalue="Kotlin.CheatSheetKt" />
         <item itemvalue="Kotlin.SecondKt" />
-        <item itemvalue="Kotlin.PracticeAWelcomeToAtCoderKt" />
       </list>
     </recent_temporary>
   </component>
@@ -140,25 +139,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom" timestamp="1576820608170">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1576907766644">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.bottom/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820608170" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1576907766644" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.23.1920.1057@0.0.1920.1080" timestamp="1576898847270" />
+    <state width="1878" height="344" key="GridCell.Tab.0.bottom/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820646169" />
     <state width="1878" height="344" key="GridCell.Tab.0.bottom/908.1223.1440.877/0.0.1920.1200@0.0.1920.1200" timestamp="1576813300547" />
-    <state width="1878" height="344" key="GridCell.Tab.0.center" timestamp="1576820608168">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1576907766642">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.center/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820608168" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1576907766642" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.23.1920.1057@0.0.1920.1080" timestamp="1576898847268" />
+    <state width="1878" height="344" key="GridCell.Tab.0.center/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820646165" />
     <state width="1878" height="344" key="GridCell.Tab.0.center/908.1223.1440.877/0.0.1920.1200@0.0.1920.1200" timestamp="1576813300541" />
-    <state width="1878" height="344" key="GridCell.Tab.0.left" timestamp="1576820608167">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1576907766641">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.left/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820608167" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1576907766641" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.23.1920.1057@0.0.1920.1080" timestamp="1576898847267" />
+    <state width="1878" height="344" key="GridCell.Tab.0.left/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820646163" />
     <state width="1878" height="344" key="GridCell.Tab.0.left/908.1223.1440.877/0.0.1920.1200@0.0.1920.1200" timestamp="1576813300532" />
-    <state width="1878" height="344" key="GridCell.Tab.0.right" timestamp="1576820608169">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1576907766643">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="344" key="GridCell.Tab.0.right/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820608169" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1576907766643" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.23.1920.1057@0.0.1920.1080" timestamp="1576898847269" />
+    <state width="1878" height="344" key="GridCell.Tab.0.right/908.1200.1440.900/0.0.1920.1200@0.0.1920.1200" timestamp="1576820646167" />
     <state width="1878" height="344" key="GridCell.Tab.0.right/908.1223.1440.877/0.0.1920.1200@0.0.1920.1200" timestamp="1576813300543" />
     <state x="469" y="239" width="1185" height="722" key="SettingsEditor" timestamp="1576809357267">
       <screen x="0" y="0" width="1920" height="1200" />
